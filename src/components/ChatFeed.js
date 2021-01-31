@@ -1,6 +1,5 @@
-import React from 'react';
 import MessageForm from './MessageForm';
-import MyMessage from './MessageForm';
+import MyMessage from './MyMessage';
 import TheirMessage from './TheirMessage';
 
 const ChatFeed = (props) => {
@@ -30,8 +29,8 @@ const ChatFeed = (props) => {
           <div
             className="read-receipts"
             style={{
-              marginRight: isMyMessage ? '18px' : '0',
-              marginLeft: isMyMessage ? '0' : '68px',
+              marginRight: isMyMessage ? '18px' : '0px',
+              marginLeft: isMyMessage ? '0px' : '68px',
             }}
           >
             Read-receipts
